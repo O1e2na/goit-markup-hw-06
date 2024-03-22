@@ -573,7 +573,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .hero {
 max-width: 320px;
 min-height: 432px;
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/Mobile/Dark-bg-mobile.jpg');
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/section/people-office-mobile.jpg');
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
@@ -583,7 +583,7 @@ padding: 72px 0;
 }
 @media screen and (min-resolution: 192dpi) {
 .hero {
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/Mobile/Dark-bg-mobile@2x.jpg');
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/section/people-office-mobile@2x.jpg');
 }
 }
 .main-title {
@@ -625,13 +625,13 @@ background: #404bbf;
 @media screen and (min-width: 768px) {
 .hero {
 max-width: 768px;
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/Tablet/Dark-bg-tablet.jpg');
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/section/people-office-tablet.jpg');
 padding: 112px 0;
 }
 @media screen and (min-resolution: 192dpi){
 .hero {
 max-width: 768px;
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/Tablet/Dark-bg-tablet@2x.jpg');
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/section/people-office-tablet@2x.jpg');
 }   
 }
 .main-title {
@@ -647,12 +647,12 @@ margin-bottom: 36px;
 .hero {
 max-width: 1440px;
 background-position: center;
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/Desktop/people-office-desktop.jpg');
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/section/people-office-desktop.jpg');
 padding: 188px 0;
 }
 @media screen and (min-resolution: 192dpi){
 .hero {
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/Desktop/people-office-desktop@2x.jpg');
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/section/people-office-desktop@2x.jpg');
 }   
 }
 .main-title {
@@ -1081,7 +1081,6 @@ background: #4d5ae5;
 transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 outline: transparent;
 border: none;
-margin-left: auto;
 margin-right: auto;
 }
 .btn-footer:hover,
