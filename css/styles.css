@@ -996,7 +996,6 @@ button {
 }
 
 .mobile-menu {
-  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -1004,9 +1003,18 @@ button {
   height: 100%;
   background-color: #fff;
 }
+
+@media (max-width: 1200px) {
+  .mobile-menu{
+    display: none;
+  }
+}
+
 @media (max-width: 767px) {
   .mobile-menu.is-open {
     display: block;
+    transform: translateX(100%);
+    transform: translateX(0);
   }
 }
 
@@ -1016,7 +1024,6 @@ button {
   display: flex;
   flex-direction: column;
   height: 100%;
-
   justify-content: space-between;
 }
 
