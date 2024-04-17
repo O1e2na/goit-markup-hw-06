@@ -85,6 +85,7 @@ button {
 
 .header-items {
   display: flex;
+  align-items: center;
 }
 
 .navigation {
