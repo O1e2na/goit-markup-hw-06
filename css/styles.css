@@ -372,6 +372,7 @@ button {
 .order-button:hover,
 .order-button:focus {
   background-color: #404bbf;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .visually-hidden {
@@ -997,13 +998,22 @@ button {
 }
 
 .mobile-menu {
-  display: none;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background-color: #fff;
+}
+
+ .mobile-menu.is-open {
+transform: translateX(0);
+}
+
+@media (min-width: 1280px) {
+  .mobile-menu {
+    display: none;
+  }
 }
 @media (max-width: 767px) {
   .mobile-menu.is-open {
