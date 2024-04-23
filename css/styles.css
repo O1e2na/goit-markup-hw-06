@@ -425,13 +425,20 @@ header {
   text-align: center;
 }
 
+.container {
+  max-width: 320px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .ftr-box {
   display: flex;
-  flex-direction: column;
   gap: 72px;
   align-items: center;
-  align-content: center;
-  margin: 0;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .ftr-logo {
@@ -453,7 +460,6 @@ header {
 
 .ftr-text {
   display: flex;
-  max-width: 264px;
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
@@ -505,14 +511,12 @@ header {
 }
 
 .footer-third {
-  display: flex;
-  flex-direction: column;
 }
 
 .ftr-form {
   display: flex;
   gap: 24px;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -543,10 +547,6 @@ header {
 }
 
 .form-label {
-  display: flex;
-  height: 40px;
-  margin-left: 16px;
-  margin-right: 16px;
 }
 
 .form-input {
@@ -1169,12 +1169,14 @@ header {
   }
 
   .ftr-box {
-    display: flex;
-    align-items: baseline;
-    flex-direction: row;
-    flex-wrap: wrap;
+    align-items: flex-start;
     max-width: 584px;
     gap: 72px 24px;
+    justify-content: flex-start;
+  }
+
+  .ftr-one {
+    max-width: 264px;
   }
 
   .ftr-two-text {
@@ -1298,12 +1300,13 @@ header {
 
   .down-bar {
     padding: 100px 0;
-    display: flex;
   }
+
   .ftr-box .container {
     max-width: 1158px;
     padding: 0;
   }
+  
   .ftr-box {
     display: flex;
     align-items: baseline;
@@ -1315,18 +1318,14 @@ header {
     margin-right: 120px;
   }
   .ftr-text {
-    display: flex;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    max-width: 264px;
-    min-width: 264px;
   }
 
   .ftr-two {
-    align-items: baseline;
-    margin-right: 80px;
+    margin-right: auto;
   }
 
   .form-input {
