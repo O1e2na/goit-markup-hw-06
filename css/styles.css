@@ -1328,6 +1328,10 @@ header {
     margin-right: auto;
   }
 
+  .footer-third {
+    padding: 40px;
+  }
+
   .form-input {
     width: 264px;
     height: 40px;
