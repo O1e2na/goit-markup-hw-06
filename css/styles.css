@@ -889,7 +889,6 @@ header {
   }
 
   .mobile-menu {
- 
     position: fixed;
     top: 0;
     left: 0;
@@ -976,7 +975,7 @@ header {
     color: #404bbf;
   }
 
-  .mobile-part-two {
+  .mobile-social-contakt {
    margin-top: auto;
   }
 
